@@ -30,7 +30,7 @@ jobs:
           cd /home/runner
           ls -l
           pwd
-          jfrog rt download --flat=false priar/home/runner/work/testingworkflows/testingworkflows/target/*.jar .
+          jfrog rt download --flat=true priar/home/runner/work/testingworkflows/testingworkflows/target/*.jar .
           echo "================================================"
           ls -l /home/runner 
           pwd
