@@ -18,11 +18,7 @@ jobs:
     
     
     steps:
-      - name: setup semantic-release
-        run: npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec semantic-release/git semantic-release/release-notes-generator
-      - name: release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
         
       - uses: actions/checkout@v2
       - name: download artifact to jfrog 
