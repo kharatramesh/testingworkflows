@@ -23,7 +23,7 @@ jobs:
       - name: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: chmod +x ./prepare-release.sh && npx semantic-release
+        
       - uses: actions/checkout@v2
       - name: download artifact to jfrog 
         uses: jfrog/setup-jfrog-cli@v1
