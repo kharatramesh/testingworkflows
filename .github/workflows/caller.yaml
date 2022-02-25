@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run a one-line script
-        run: echo Hello, world-Looking Good11!
-  
       - name: semantic versioning
         id: versioning
         uses: PaulHatch/semantic-version@v4.0.2
