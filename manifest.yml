@@ -6,6 +6,6 @@ applications:
   - mybluemix.net                 
   - apic.mybluemix.net            
   
-  host: vadapav1
+  host: vadapav2
   # path: /target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
   path:  /home/runner/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
